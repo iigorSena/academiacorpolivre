@@ -1,0 +1,309 @@
+body{
+    background: rgb(0, 0, 0);
+    margin: 0;
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho{
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #ffff00;
+
+}
+
+.cabe-right{
+    width: 50%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.cabe-left{
+    width: 50%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.titulo{
+    font-weight: bold;
+    margin-left: 24pt;
+}
+
+.btn-dark{
+    font-weight: bold;
+    margin-right: 24pt;
+}
+
+.banner-principal{
+    margin-top: 10px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-radius: 10px;
+    border-color: #ffff00;
+}
+
+.area-academia{
+    margin-top: 10px;
+    height: 400px;
+}
+
+.td-area{
+    border-width: 50px;
+    border-color: black;
+}
+
+.card-foto-area{
+    width: 300px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: top;
+    background: yellow;
+    border-radius: 10px;
+    border: solid;
+    border-color: #ffff00;
+    text-align: center;
+    font-weight: bold;
+}
+
+.img-card{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.titulo-treinamento{
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitulo{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: row;
+    justify-content: center;
+    font-weight: bold;
+    margin-block: 10px;
+}
+
+.area-treinos{
+    margin-top: 15px;
+}
+
+.faixa-treinos{
+    width: 100%;
+    height: 550px;
+    background: #ffff00;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+}
+
+.card-foto-treino{
+    width: 250px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    background: black;
+    border-radius: 10px;
+    border: solid;
+    border-color: black;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0px 15px 20px black;
+}
+
+.td-treinos{
+    border-left-width: 30px;
+    border-color: yellow;
+}
+
+.btn-mais-opcoes{
+    background: #ffff00;
+    width: 200px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none
+}
+
+.card-img-treino{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    
+}
+
+hr{
+    color: white;
+    margin-block: 5px;
+    margin-inline: 10px;
+}
+
+.name-trainer{
+    font-weight: bold;
+    color: #ffff00
+}
+
+.faixa-info{
+    width: 100%;
+    height: 450px;
+    background: #161616;
+    display: flex;
+    flex-direction: row;
+
+    color: white;
+
+}
+
+.faixa-info-left{
+    width: 50%;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    font-size: 30pt;
+}
+
+.info-left{
+    margin-left: 50px
+}
+
+.linha-info-text{
+    margin-inline: 50px;
+}
+
+.text-avaliacao{
+    font-size: 15pt;
+    color: #ffff00;
+    margin-left: 50px;
+}
+
+.faixa-info-right{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.img-treinadores{
+    height: 100%;
+}
+
+.faixa-planos{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.td-planos{
+    border-left-width: 30px;
+    border-color: black;
+}
+.card-planos{
+    width: 300px;
+    height: 400px;
+    background: #ffff00;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    text-align: center;
+}
+
+.img-card-planos{
+    height: 100px;
+    margin-top: 15px;
+}
+
+.linha-card-planos{
+    color: black;
+    margin-block: 10px;
+    margin-inline: 30px;
+    border-width: 2px;
+}
+
+.titulo-planos{
+    font-weight: bold;
+}
+
+.p-text-card-planos{
+    margin-inline: 10px;
+}
+.p-text-card-preco{
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+.btn-entre-em-contato{
+    background: black;
+    color: yellow;
+    width: 200px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none
+}
+
+.rodape{
+    background: #161616;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-sociais{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #ffff00;
+}
+
+.bi-instagram{
+    margin-left: 15px;
+}
+.bi-facebook{
+    margin-left: 15px;
+}
+.bi-youtube{
+    margin-left: 15px;
+}
+.bi-twitter-x{
+    margin-left: 15px;
+}
+
+.linha-redes-sociais{
+    color: white;
+    margin-inline: 10px;
+    margin-block: px;
+    border-width: 10px;
+}
+
+.direitos{
+    color: white;
+    margin-top: -10px;
+}
